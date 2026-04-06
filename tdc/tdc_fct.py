@@ -57,7 +57,7 @@ def cas_3(lambda_val):
         B[0] = 2.0
         A[-1, -1] = 1.0
         B[-1] = 1.0
-        print(B)
+        
         # Résolution du système linéaire 
         T[:, n+1] = np.linalg.solve(A, B)
         
